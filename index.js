@@ -31,7 +31,7 @@ const personagens = [
 ]
 
 for(i = 0; i < personagens.length; i++){
-    let personagem = personagens[i];
+    let personagem= personagens[i];
     let campeao = new Heroi(personagem.nome, personagem.idade, personagem.tipo);
     campeao.atacar();
 }
